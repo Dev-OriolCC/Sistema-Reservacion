@@ -28,7 +28,7 @@ router.post('/', (req, res) => {
     });
     newClient.save().then(client => res.json(client));
 });
-/* POST EXAMPLE
+/* POST EXAMPLE -- POSTY :D
 {
     "name": "Walter White",
     "dateIn": "2020-11-10",
